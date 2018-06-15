@@ -1,0 +1,8 @@
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-06-14 04:16:18.934  INFO 5560 --- [           main] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@667a738: startup date [Thu Jun 14 04:16:14 PKT 2018]; root of context hierarchy
+2018-06-14 04:16:18.941  INFO 5560 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
